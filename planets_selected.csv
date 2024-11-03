@@ -1,0 +1,9 @@
+Planet,Density (kg/m^3),Gravity(m/s^2),Size (km),Color,Mass (10^24kg),Length of Day (hours),Orbital Period (days),Distance from Sun (10^6 km),Mean Temperature (C),Number of Moons,Ring System?,Global Magnetic Field?
+Mercury,5429,3.7,4879,Grey,0.33,4222.6,88,57.9,167,0,No,Yes
+Venus,5243,8.9,12104,Brown and Grey,4.87,2802,224.7,108.2,464,0,No,No
+Earth,5514,9.8,12756,"Blue, Brown Green and White",5.97,24,365.2,149.6,15,1,No,Yes
+Mars,3934,3.7,6792,"Red, Brown and Tan",0.642,24.7,687,228,-65,2,No,No
+Jupiter,1326,23.1,142984,"Brown, Orange and Tan, with White cloud stripes",1898,9.9,4331,778.5,-110,79,Yes,Yes
+Saturn,687,9,120536,"Golden, Brown, and Blue-Grey",568,10.7,"10,747",1432,-140,82,Yes,Yes
+Uranus,1270,8.7,51118,Blue-Green,86.8,17.2,"30,589",2867,-195,27,Yes,Yes
+Neptune,1638,11,49528,Blue,102,16.1,"59,800",4515,-200,14,Yes,Yes
