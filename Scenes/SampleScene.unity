@@ -562,8 +562,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 82243877}
-  radiusX: 3.9
-  radiusY: 3.9
+  radiusX: 4
+  radiusY: 4
   segments: 100
 --- !u!1 &100939645
 GameObject:
@@ -595,7 +595,7 @@ Transform:
   m_GameObject: {fileID: 100939645}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.9, y: 0, z: -0}
+  m_LocalPosition: {x: 4, y: 0, z: -0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -894,7 +894,7 @@ Transform:
   m_GameObject: {fileID: 158294586}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.76989985, y: 1.2088943, z: -0.45419547}
+  m_LocalPosition: {x: 0.76989985, y: 1.2088943, z: -0.4541955}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1031,7 +1031,6 @@ GameObject:
   - component: {fileID: 277518837}
   - component: {fileID: 277518839}
   - component: {fileID: 277518838}
-  - component: {fileID: 277518840}
   m_Layer: 0
   m_Name: OrbitLineSaturn
   m_TagString: Untagged
@@ -1174,27 +1173,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!135 &277518840
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277518836}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Radius: 4.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &331264285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1206,17 +1184,32 @@ PrefabInstance:
     - target: {fileID: 2512387469002778308, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.16
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 2512387469002778308, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.95
+      value: -4.9
       objectReference: {fileID: 0}
     - target: {fileID: 2512387469002778308, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.42
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512387469002778308, guid: 48cb3fb68c91eb94999fd99957eb0cae,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512387469002778308, guid: 48cb3fb68c91eb94999fd99957eb0cae,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512387469002778308, guid: 48cb3fb68c91eb94999fd99957eb0cae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2512387469002778331, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
@@ -1302,17 +1295,17 @@ PrefabInstance:
     - target: {fileID: 2512387470890420967, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.86
       objectReference: {fileID: 0}
     - target: {fileID: 2512387470890420967, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.45
       objectReference: {fileID: 0}
     - target: {fileID: 2512387470890420967, guid: 48cb3fb68c91eb94999fd99957eb0cae,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -12
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8856633716983450840, guid: 48cb3fb68c91eb94999fd99957eb0cae, type: 3}
@@ -1336,7 +1329,6 @@ GameObject:
   - component: {fileID: 398427396}
   - component: {fileID: 398427395}
   - component: {fileID: 398427394}
-  - component: {fileID: 398427397}
   m_Layer: 0
   m_Name: OrbitLineMars
   m_TagString: Untagged
@@ -1571,33 +1563,12 @@ Transform:
   m_GameObject: {fileID: 398427393}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.33487844, y: 0.53298223, z: 2.8522618}
+  m_LocalPosition: {x: -0.33487844, y: 0.53298223, z: 2.8522615}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 677822966}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &398427397
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398427393}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Radius: 3.5
-  m_Center: {x: 0.33487892, y: -0.53298223, z: -2.3522623}
 --- !u!1 &405737069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,6 +2151,8 @@ GameObject:
   - component: {fileID: 677822968}
   - component: {fileID: 677822969}
   - component: {fileID: 677822970}
+  - component: {fileID: 677822971}
+  - component: {fileID: 677822972}
   m_Layer: 0
   m_Name: SolarSystemParent
   m_TagString: Untagged
@@ -2226,7 +2199,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677822965}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58030aaf045b94ded86c4ef19d6da849, type: 3}
   m_Name: 
@@ -2235,15 +2208,7 @@ MonoBehaviour:
   zoomSpeed: 0.001
   minScale: 0.01
   maxScale: 1
-  orbitPaths:
-  - {fileID: 158294589}
-  - {fileID: 81196508}
-  - {fileID: 477380820}
-  - {fileID: 398427395}
-  - {fileID: 82243877}
-  - {fileID: 277518839}
-  - {fileID: 1412263378}
-  - {fileID: 127234823}
+  orbitPaths: []
 --- !u!114 &677822969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2279,6 +2244,55 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 7, y: 7, z: 7}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &677822971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677822965}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac003c809a3f447df8b10125fbb372a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  solarSystemParent: {fileID: 677822966}
+  rotationSpeed: 0.2
+--- !u!114 &677822972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677822965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d9af54e4ad854ff1a63fef53349bc2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planets:
+  - {fileID: 74047993}
+  - {fileID: 443465676}
+  - {fileID: 462344216}
+  - {fileID: 762450309}
+  - {fileID: 100939646}
+  - {fileID: 1414094747}
+  - {fileID: 405737070}
+  - {fileID: 1522046011}
+  orbitLines:
+  - {fileID: 158294589}
+  - {fileID: 81196508}
+  - {fileID: 477380820}
+  - {fileID: 398427395}
+  - {fileID: 82243877}
+  - {fileID: 277518839}
+  - {fileID: 1412263378}
+  - {fileID: 127234823}
+  rotationSpeed: 0.1
+  panSpeed: 0.01
+  zoomSpeed: 0.001
+  minScale: 0.01
+  maxScale: 1
 --- !u!1 &702413256
 GameObject:
   m_ObjectHideFlags: 0
@@ -2880,8 +2894,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412263376}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.59, z: -0.21}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5899999, z: -0.21000004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
