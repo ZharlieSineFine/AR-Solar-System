@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomeScreen.unity
+    guid: 633d5f0eebf37a046809a5abc7747c76
+  - enabled: 1
+    path: Assets/Scenes/Individual_Planet.unity
+    guid: dea63c923e810459982c25c85e0f6d45
+  - enabled: 0
+    path: Assets/Scenes/Solar_system.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Earth_quiz.unity
+    guid: b32edb7b7ac8b4088b7de6c49da1bbe1
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: ac40ea63e7a444fc2b149542d23b3255
+  - enabled: 1
+    path: Assets/Scenes/BookFront.unity
+    guid: e6620207e8241e244a3a9e747045ab83
+  - enabled: 1
+    path: Assets/Scenes/SunInfo.unity
+    guid: aca564a7dcc2cab409731a1605d3896b
+  - enabled: 1
+    path: Assets/Scenes/MercuryInfo.unity
+    guid: 24af9908be48bf44d910d4620a1aeceb
+  - enabled: 1
+    path: Assets/Scenes/VenusInfo.unity
+    guid: fd543232ec584ae4dacce3ad0219f8d7
+  - enabled: 1
+    path: Assets/Scenes/EarthInfo.unity
+    guid: 2d38f104dab6f05458f7b8daf0a89bc3
+  - enabled: 1
+    path: Assets/Scenes/MarsInfo.unity
+    guid: 965bd8b1fe7f80f48b2a16143d59ecba
+  - enabled: 1
+    path: Assets/Scenes/JupiterInfo.unity
+    guid: 63580b93f22ea674ca7148999f578b3d
+  - enabled: 1
+    path: Assets/Scenes/SaturnInfo.unity
+    guid: 295a65cea5de52143a0725f552462078
+  - enabled: 1
+    path: Assets/Scenes/UranusInfo.unity
+    guid: 53373299bec8da0428df7e4f3bb832bf
+  - enabled: 1
+    path: Assets/Scenes/NeptuneInfo.unity
+    guid: 1ce35bb2d440144479e6ed08b32575ab
+  - enabled: 1
+    path: Assets/Scenes/MoonInfo.unity
+    guid: 4d22fad0529cfef4593ad3d3a9aaab5d
+  - enabled: 1
+    path: Assets/Scenes/Edu-Game.unity
+    guid: 3af31995a633f694a843d240613b9310
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b2bb89202e8e74463a939a4a54c03bed, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 8e2e0bf2a4a35421f80362a680146660, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d7f7dfafe345545e7b057853df4613f0, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 87b3e279e143a43e08b5095dfedb9b1f, type: 2}
