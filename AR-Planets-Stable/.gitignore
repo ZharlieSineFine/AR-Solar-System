@@ -4,7 +4,7 @@
 #
 /[Ll]ibrary/
 /[Tt]emp/
-/[Oo]bj/
+/[Oo]bj/.a
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
@@ -54,7 +54,7 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
+
 *.aab
 *.unitypackage
 *.app
